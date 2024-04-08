@@ -66,9 +66,19 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 <br />
 
-{{< figure src="images/rect46-1.svg" width="50%" >}}
+{{< figure src="images/BDIAgents.svg" width="50%" >}}
 
 <small>[1] Weiss, Gerhard, Multiagent Systems. MIT Press, 2013</small>
+
+---
+
+# Why BDI?
+
+- System's description through *Goals*
+  - *Imperative Paradigm* and *Functional Paradigm* are suboptimal to do so 
+  - Huge *abstraction gap* between instruction and notion representation
+- BDI tries to minimise this gap in the abstraction
+  - Mimicking human-level notions such as *beliefs*, *desires* and *intentions*
 
 ---
 
@@ -77,7 +87,7 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 <br />
 
-Agents are autonomous entities modeled through three main abstractions:
+Agents are modeled through three main abstractions:
 - *Beliefs*: mental state of the agent, that changes over time.
 - *Desires*: motivational state of the system.
 - *Intentions*: deliberative state of the agent.
@@ -169,44 +179,7 @@ However, Agent-Orientation / BDI is never considered
 
 ---
 
-# BDI Libraries
-
-<br>
-<br>
-
-{{% multicol %}} {{< col class="col-75">}}
-
-* Built for mainstream languages
-* Subject to the **syntactic restrictions** of their host language
-  * "True" AOP/BDI feeling hardly achieved
-
-{{< /col >}}
-
-{{< col class="col-25">}}
-
-{{< fragment >}}
-## <i class="fa-solid fa-arrow-right"></i> **custom language**
-{{< /fragment >}}
-
-{{< /col >}} {{% /multicol %}}
-
----
-
-# AOP Custom Languages
-* <span class="green">Great ergonomy for BDI AOP (made by purpose) </span>
-* <span class="red">BDI-specific, not multi-paradigm </span>
-* <span class="red">Steep learning curve</span>
-* <span class="red">Require custom tooling (IDEs, code suggestions, syntax highlighters, linters...)</span>
-* <span class="red">Small community</span>
-* <span class="red">High maintenance cost!</span>
-
----
-
-# A hybrid approach
-
-<!-- ![](images/ergonomy.png) -->
-
-<!-- {{< figure src="images/ergonomy.png" width="60%" >}}  -->
+-->
 
 ## We searched for popular BDI AOP languages
 
@@ -230,100 +203,66 @@ However, Agent-Orientation / BDI is never considered
 
 # Why?
 
-We identified 4 possible reasons
+- We analysed the available solutions to adopt BDI programming, and then
+
+- We identified the possible reasons
 
 ---
 
-## 1. Learning curve vs ergonomics
+# Majority of BDI tools: Libraries
+
 <br>
 <br>
 
-{{< multicol class="text-center" >}}{{< col class="col-6" >}}
+{{% multicol class="text-center" %}} {{< col class="col-75">}}
 
-<h4> Libraries </h4>
-<br>
+* Built for mainstream languages
+* Subject to the *syntactic restrictions* of their host language
+  * "True" AOP/BDI feeling hardly achieved
+
+{{< /col >}}
+
+{{< col class="col-25">}}
+
+{{< fragment >}}
+## <i class="fa-solid fa-arrow-right"></i> *custom language*
+{{< /fragment >}}
+
+{{< /col >}} {{% /multicol %}}
+
+---
+
+# AOP Custom Languages
 
 <div>
-<i class="fa-solid fa-check" style="color: green;"></i>
-Gentle learning curve
-</div>
 
-<div>
-<i class="fa-solid fa-check" style="color: green;"></i>
-Large community
-</div>
+<div class=" w-50 m-auto text-right" style="text-align: left">
 
-<div>
-<i class="fa-solid fa-xmark" style="color: red;"></i>
-Poor ergonomicity
-</div>
+<i class="fa-solid fa-check" style="color: green; margin-right: 10px"></i>
+Great ergonomy for BDI AOP (made by purpose)
 
-{{< /col >}}{{< col class="col-6" >}}
+<i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+BDI-specific, not multi-paradigm 
 
-<h4> Custom Languages </h4>
-<br>
-
-{{< tick >}}
-High ergonomicity
-{{< /tick >}}
-
-{{< cross >}}
+<i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
 Steep learning curve
-{{< /cross >}}
 
-<div>
-<i class="fa-solid fa-xmark" style="color: red;"></i>
+<i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+Require custom tooling - IDEs, code suggestions, syntax highlighters, linters...
+
+<i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
 Small community
+
+<i class="fa-solid fa-xmark" style="color: red; margin-right: 10px"></i>
+High maintenance cost!
+
 </div>
 
-{{< /col >}}{{< /multicol >}}
-
 ---
 
-## 2. Tooling
-#### (IDE, code suggestion, syntax highlighter, ...)
-<br>
-<br>
+# A hybrid approach
 
-{{% multicol class="text-center" %}}{{% col %}}
-
-<h4> Libraries </h4>
-<br>
-
-* Rely on existing **development tools**
-* Can be integrated with existing **libraries**
-
-{{% /col %}}{{% col %}}
-
-<h4> Custom Languages </h4>
-<br>
-
-* Require **novel tooling**
-    * and related **maintenance**
-* Require **novel libraries** or **explicit bridges** to other ecosystems
-
-{{< /col >}}{{< /multicol >}}
-
----
-
-## 3. Middleware/Runtime requirements
-<br>
-
-* BDI AOP libraries rely on specific runtimes
-    * e.g. **JVM**, **Python interpreter**, ...
-
-* But systems could be designed to run on a large variety of devices, 
-    * from **web** to **wearable**-oriented applications 
-
----
-
-## 4. Concurrency model
-<br>
-
-* Limited configuration over the system **execution**
-    * impact the system design
-* BDI model definition should be completely agnostic<br>of the underlying concurrency model
-    * Which should be **pluggable**.
+{{< figure src="images/ergonomy.png" width="60%" >}} 
 
 ---
 
@@ -364,6 +303,7 @@ Internal Domain-Specific Language (DSL) implemented in Kotlin
 
 
 ---
+
 # Jakta architecture
 
 {{< figure src="images/jacop_modules.svg" width="50%" >}}
