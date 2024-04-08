@@ -58,7 +58,7 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 {{< figure src="images/rect46.svg" width="50%" >}}
 
-<small>Weiss, Gerhard, Multiagent Systems. MIT Press, 2013</small>
+<small>[1] Weiss, Gerhard, Multiagent Systems. MIT Press, 2013</small>
 
 ---
 
@@ -68,7 +68,7 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 {{< figure src="images/rect46-1.svg" width="50%" >}}
 
-<small>Weiss, Gerhard, Multiagent Systems. MIT Press, 2013</small>
+<small>[1] Weiss, Gerhard, Multiagent Systems. MIT Press, 2013</small>
 
 ---
 
