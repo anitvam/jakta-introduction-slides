@@ -1,6 +1,6 @@
-baseURL = "https://danysk.github.io/Template-Hugo-Reveal-Slides"
+baseURL = "https://anitvam.github.io/jakta-introduction-slides"
 languageCode = "en-us"
-title = "A Hugo theme for creating Reveal.js presentations"
+title = "Jakta"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"
@@ -10,7 +10,7 @@ publishDir = "build"
 # uglyURLs = true
 
 [author]
-name = "Danilo Pianini"
+name = "Martina Baiardi"
 
 # currently only the unsafe mode for goldmark is supported
 [markup.goldmark.renderer]
@@ -30,7 +30,7 @@ isHTML = true
 
 [params.reveal_hugo]
 history = true
-theme = "league"
+theme = "white"
 highlight_theme = "solarized-dark"
 slide_number = true
 transition = "slide"
