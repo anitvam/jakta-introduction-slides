@@ -1,4 +1,4 @@
-baseURL = "https://anitvam.github.io/jakta-introduction-slides"
+baseURL = "https://anitvam.github.io/jakta-introduction-slides/"
 languageCode = "en-us"
 title = "Jakta"
 disableKinds = ["sitemap", "RSS"]
