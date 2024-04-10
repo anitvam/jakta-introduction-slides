@@ -4,7 +4,7 @@ outputs = ["Reveal"]
 
 +++
 
-# JaKtA: <br> BDI agent-oriented programming <br> in pure Kotlin
+# Martina put a title here
 
 <br>
 
@@ -18,8 +18,7 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 ---
 
-
-# Martina put a title here
+# JaKtA: <br> BDI agent-oriented programming <br> in pure Kotlin
 
 <br>
 
