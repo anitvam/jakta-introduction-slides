@@ -280,7 +280,7 @@ High maintenance cost!
 
 ---
 
-# JaKtA: <br> <u>Ja</u>son-like <u>K</u>o<u>t</u>lin <u>A</u>gents
+# JaKtA: <br> <u>Ja</u>son-like <u>K</u>o<u>t</u>lin <u>A</u>gents [1]
 
 Internal Domain-Specific Language (DSL) implemented in Kotlin
 
@@ -292,6 +292,14 @@ Internal Domain-Specific Language (DSL) implemented in Kotlin
   * Developed and *maintained* by the language maintainers and the community
   * Maintenance is greatly reduced
 * Good ergonomy
+
+<br />
+
+<div>
+<small style="text-align: left"> 
+[1] Baiardi, M., Burattini, S., Ciatto, G., & Pianini, D. (2023, September). JaKtA: BDI Agent-Oriented Programming in Pure Kotlin. 
+</small>
+</div>
 
 ---
 
