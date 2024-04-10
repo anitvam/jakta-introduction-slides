@@ -18,6 +18,21 @@ Via dell’Università 50, 47522 Cesena (FC), Italy </small>
 
 ---
 
+
+# Martina put a title here
+
+<br>
+
+
+Martina Baiardi <br />
+m.baiardi@unibo.it <br /><br />
+
+<small>Department of Computer Science and Engineering (DISI)<br>
+Alma Mater Studiorum — Università di Bologna <br>
+Via dell’Università 50, 47522 Cesena (FC), Italy </small>
+
+---
+
 ## Distributed Applications
 #### Running on unknown network topologies
 
